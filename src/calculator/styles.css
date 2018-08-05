@@ -1,0 +1,69 @@
+.calcContainer {
+  width: 480px;
+}
+
+.col-4, .col-9, .col-3, .row {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  border: 2px solid rgb(158, 0, 29);
+}
+
+.key-pad-container {
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.key-pad-container > div:last-child {
+  border-bottom: none;
+  border-left: 2px solid rgb(158, 0, 29);
+  border-right: 2px solid rgb(158, 0, 29);
+}
+
+.key-pad-container > div:nth-child(2), :nth-child(5), :nth-child(8)    {
+  border-left: 2px solid rgb(158, 0, 29);
+  border-right: 2px solid rgb(158, 0, 29);
+}
+
+.button {
+  height: 120px;
+  border-bottom: 2px solid rgb(158, 0, 29);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.clear-button {
+  color: rgb(90, 90, 90);
+  font-size: 30px;
+  border-bottom: 2px solid rgb(158, 0, 29);
+}
+
+.operation-button {
+  background-color: rgb(255, 0, 63);
+  color: white;
+}
+
+.output-screen {
+  height: 140px;
+  background-color: rgb(70, 51, 55);
+  border: 2px solid rgb(167, 17, 42);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 80px;
+  padding-right: 20px;
+}
+
+.overflow {
+  font-size: 20px;
+}
+
+.operations > div:last-child {
+  border-bottom: none;
+  border-right: none;
+}
